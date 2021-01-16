@@ -19,7 +19,7 @@ public class Car {
     }
 
     @Id
-    @Column(name = "car_id", nullable = false, length = 20)
+    @Column(name = "car_id", nullable = false, length = 60)
     public String getCar_id() {
         return car_id;
     }
